@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="MainPage.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="script.js"></script>
+</head>
+	<body onload=getData();>
+
+		<div class= "banner-row">
+		
+			<div id= "banner-col-l"></div>
+			<div id="banner-col-r">
+				<button id="cart-btn" onClick=showMiniCart();> My Cart <span id="cart-tot"> </span> </button>
+			</div>
+			
+		</div>
+		
+		<span id="minicart-row">
+			<div class="minicart-col">
+				<p id="mini-title"></p>
+				<span id="mini-amount"></span><span id="mini-price"></span>
+				<p id="mini-size"></p>
+			</div>
+				
+			<div class="minicart-col" id="mini-image"></div>
+			
+		</span>
+		
+		<div class= "content-row">
+
+			<div class= "content-col">
+				<image id="shirt-image" src="" alt= "tshirt">
+			</div>
+
+			<div class= "content-col">
+			
+				<h1 id="product-title"></h1>
+				
+				<hr>
+				<b><p id="product-price"></p></b>
+				<hr>
+				
+				<p class="content-details" id="content-details"></p>
+				
+				<h4 id="size-label">Size<sup>*</sup> <span id="product-size"></span></h4>
+				
+				<div class= "btn-grp">
+					<button class="size-btn" id="btn-size-s" onClick =setSize();></button>
+					<button class="size-btn" id="btn-size-m" onClick =setSize();></button>
+					<button class="size-btn" id="btn-size-l" onClick =setSize();></button>
+				</div>
+				
+				<button id="add-to-cart" onClick= addToCart();>ADD TO CART</button>
+
+			</div>
+			
+		</div>
+	
+	</body>
+</html>
