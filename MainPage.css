@@ -4,10 +4,6 @@
 	background-color: white;
 	
 }
-.content-row{
-	border-color: red;
-	border-style: solid;
-}
 
 .content-row:after{
 	content: "";
@@ -16,8 +12,6 @@
 }
 
 .banner-row{
-	border-style: solid;
-	border-color: red;
 	background-color: #F6F6F7;
 }
 
@@ -85,7 +79,6 @@ sup{
 }
 
 .minicart-col{
-
 	float:right;
 	width:10%;
 }

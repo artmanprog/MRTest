@@ -34,7 +34,7 @@ function addData(response){
 }
 
 function setSize(){
-	alert(document.getElementById("btn-size-s") == "btn-size-s");
+	//set size value next to Size product-size
 
 }
 
